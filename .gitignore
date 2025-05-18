@@ -1,0 +1,68 @@
+## Ignore para projetos C#
+
+# Build results
+bin/
+obj/
+out/
+
+# Visual Studio
+.vscode/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Arquivos de log e cache
+*.log
+*.tlog
+*.cache
+*.pdb
+*.mdb
+
+# Diretórios de publicação temporários
+TestResults/
+[Bb]uild[Ll]og.*
+*.dbmdl
+*.bak
+*.backup
+
+# Arquivos de configurações do sistema operacional
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Arquivos do Rider (caso use JetBrains)
+.idea/
+*.sln.iml
+
+# Pacotes NuGet
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Dados do usuário
+*.swp
+*.tmp
+
+# NÃO ignorar arquivos .zip
+# (linha propositalmente deixada em branco aqui, para garantir que *.zip não está sendo ignorado)
+
+# Ignore arquivos de publicação gerados por ClickOnce
+publish/
+
+# Secrets (caso tenha algum secrets.json)
+secrets.json
+
+# Ignore arquivos do ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Logs do MSBuild
+msbuild.log
+msbuild.err
+msbuild.wrn
